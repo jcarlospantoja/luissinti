@@ -1,0 +1,659 @@
+
+
+
+.logo-caja {
+    width: 200px;
+    margin-top: -7px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .logo-caja {
+        width: 160px;
+        margin-top: -7px;
+    }
+}
+
+.menu-titulo {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.h2-luissinti {
+    font-size: 54px;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+    .h2-luissinti {
+        font-size: 24px;
+    }
+}
+
+
+.h3-vive {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+.contenido-2-imagenes {
+    margin-top: 20px;
+}
+
+.contenido-luis {
+    margin-top: 20px;
+    background: #f6f6f6;
+    font-size: 24px; 
+    border-radius: 5px;
+}
+
+.img-caracteristica {
+    
+    width: 40px;
+}
+
+ .leader {
+    width: 30px;
+}
+
+.p-caracteristicas {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #303f9f;
+}
+
+@media screen and (max-width: 600px) {
+    .p-caracteristicas {
+        font-size: 12px;
+    }
+}
+
+.contenido-aspecto {
+   
+    margin-top: 80px;
+}
+
+.imagen-caracteristicas {
+    margin-top: 30px;
+}
+
+
+
+.aspectos {
+    background: #c5cae9;
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    transition: width 2s;
+    
+    background-size: cover;
+
+}
+
+.aspectos-1:hover {
+    
+    background-image: url(../img/luis_micro.jpeg);
+    cursor: pointer;
+   
+    width: 100%;
+}
+
+.aspectos-2:hover {
+    background-image: url(../img/lifestyle2.jpg);
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aspectos-3:hover {
+    background-image: url(../img/leader.jpg);
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.h3-sigueme {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+/* Section Instagram */
+
+.grid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(220px, auto);
+}
+
+.grid-item {
+    background-color: #eee;
+}
+
+.grid-item > img {
+    width: 100%;
+}
+
+.grid-item__two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+
+.grid-item__four {
+    grid-row: 3 / 5;
+}
+
+.grid-item__eight {
+    grid-column: 3 / 4;
+    grid-row: 4 / 6;
+}
+
+.grid-item__nine {
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
+}
+
+.grid-item__twelve {
+    grid-column: 2 / 4;
+    grid-row: 7 / 9;
+}
+
+@media screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(150px, auto);
+        grid-gap: 2px;
+    }
+}
+
+
+.sigueme {
+
+    display: inline-block;
+    width: 100px;
+    margin: 0 50px;
+}
+.sigueme a {
+    font-size: 40px;
+    color: #e1306c;
+}
+
+.luis-footer {
+    margin-right: 100px;
+    width: 200px;
+    display: inline;
+
+}
+
+
+/* FOOTER */
+
+
+  
+  /*.social {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+  */
+
+  .contacto-conmigo {
+      text-transform: uppercase;
+      
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+
+
+  .social .link {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    background-clip: content-box;
+    padding: 10px;
+    transition: .5s;
+    color: #D7D0BE;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 70px;
+  }
+  
+  .social .link span {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .social .link:hover {
+    padding: 20px;
+    color: white;
+    margin-left: -5px;
+    transform: translateX(10px) rotate(360deg);
+  }
+  
+  .social .link.google-plus {
+    background-color: tomato;
+    color: white;
+  }
+  
+  .social .link.twitter {
+    background-color: #00ACEE;
+    color: white;
+  }
+  
+  .social .link.facebook {
+    background-color: #3B5998;
+    color: white;
+  }
+  
+  .footer-luis {
+
+      margin-top: 0;
+  }
+  
+  .social-luis {
+      margin-top: 0;
+      background: #303f9f;
+  }
+
+
+
+  /* My HISTORIA */
+
+.video-luis {
+    margin: 20px;
+}
+
+
+
+
+
+
+.foto-historia {
+    width: 100%;
+}
+
+.contenido-historia {
+    font-size: 24px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.h2-historia {
+    font-size: 54px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+}
+
+.luis-camina {
+    width: 100%;
+}
+
+
+/* CONTACTO */
+
+.h2-contacto {
+    font-size: 54px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    margin-left: 180px;
+}
+
+  @media screen and (max-width: 600px) {
+      .h2-contacto {
+          margin-left: 0;
+      }
+  } 
+
+
+/* CONTACTO */
+
+.video-contacto {
+    width: 80%;
+    background: #f2f2f2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.video-luis-contacto {
+    width: 100%;
+}
+
+
+
+/*FORMULARIO */
+
+.form_wrap {
+    width: 100%;
+    height: 530px;
+    margin: 50px auto;
+    display: flex;
+
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+}
+
+
+
+
+/*INFormacion info de contacto*/
+
+.contact_info::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: #303f9f;
+    opacity: 0.9;
+}
+
+
+.contact_info {
+    width: 38%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    background-image: url(../img/luis_micro.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.info_title, 
+.info_items {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.infor_title {
+    margin-bottom: 60px;
+
+}
+.info_title span {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.info_title h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.info_items p {
+    display: flex;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.info_items p:nth-child(1) span {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.info_items p:nth-child(2) span {
+    font-size: 50px;
+    margin-right: 15px;
+    margin-left: 4px;
+}
+
+
+/*Formulario de contacto*/
+
+form.form_contact {
+    width: 62%;
+    padding: 30px 40px;
+}
+
+form.form_contact h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+form.form_contact .user_info {
+    display: flex;
+    flex-direction: column;
+}
+
+form.form_contact label {
+    font-weight: 600;
+}
+
+form.form_contact input,
+form.form_contact textarea {
+    width: 100%;
+    padding: 8px 0px 5px;
+    margin-bottom: 20px;
+
+    border: none;
+    border-bottom: 2px solid #d1d1d1;
+
+    font-family: 'Open Sans';
+    color: #5a5a5a;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+form.form_contact textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90px;
+}
+
+form.form_contact input[type="submit"] {
+    width: 180px;
+    background: #303f9f;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+
+    align-self: flex-end;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+form.form_contact input[type="submit"]:hover {
+    background: #303f9f;
+}
+
+/*Ventana de errores*/
+
+.modal_wrap {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje_modal {
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+}
+
+.mensaje_modal h3 {
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mensaje_modal h3:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #c5c5c5;
+    margin: 10px 0px 15px;
+}
+
+.mensaje_modal p {
+    font-size: 16px;
+    color: #606060;
+}
+
+.mensaje_modal p:before {
+    content: '\f00d';
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #e25151;
+    margin-right: 9px;
+}
+
+.mensaje_modal #btnClose {
+    display: inline-block;
+    padding: 3px 10px;
+    margin-top: 10px;
+
+    background: #e25151;
+    color: #fff;
+    border: 2px solid #b14141;
+    cursor: pointer;
+
+    float: right;
+}
+
+/*MENSAJE EXITOSO*/
+
+.mensaje-exito {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje-exito h1 {
+font-size: 35px;
+display: block;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.mensaje-exito a {
+    display: block;
+    padding: 10px 30px;
+    background: #303f9f;
+    text-decoration: none;
+    color: #fff;
+}
+
+.mensaje-exito a:hover {
+    background: #3371b6;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .form_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+
+
+
+    .contact_info {
+        width: 100%;
+        
+    }
+
+    form.form_contact {
+       width: 100%;
+    }
+
+}
+
+/* BLOG */
+
+.h2-blog {
+    font-size: 54px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .h2-blog {
+        margin-left: 0;
+    }
+}
+
+
+
+.imagen-blog {
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.blog-luis-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+
+
